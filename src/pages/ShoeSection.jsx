@@ -79,7 +79,7 @@ export function ShoeSection() {
                 </div>
             </section>
 
-            <section id="testimonals" className="bg-sky-500 section-container  pointer-events-none
+            <section id="testimonals" className="section-container  pointer-events-none
             mt-15 items-center bg-[url('./images/what-people-say.png')] md:bg-contain ">
 
                 <div>
@@ -125,7 +125,7 @@ export function ShoeSection() {
                     </div>
                 </div>
 
-                <div className="bg-amber-600">
+                <div>
                     <img className="w-full" src="./images/contact.png" alt="" />
                 </div>
             </section>

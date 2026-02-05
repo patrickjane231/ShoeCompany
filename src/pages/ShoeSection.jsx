@@ -78,8 +78,11 @@ export function ShoeSection() {
                 </div>
             </section>
 
-            <section id="testimonals" className="section-container  pointer-events-none
-            mt-15 items-center bg-[url('./images/what-people-say.png')] md:bg-contain ">
+            <section
+                id="testimonals"
+                className="section-container pointer-events-none mt-15 items-center
+  bg-[url('/images/what-people-say.png')] bg-no-repeat bg-center bg-contain"
+            >
 
                 <div>
                     <h1 className="text-center text-3xl md:text-5xl max-w-[330px] md:max-w-2xl mx-auto font-display font-bold">What People are saying about THE SHOE COMPANY ?</h1>
@@ -94,12 +97,12 @@ export function ShoeSection() {
 
                     <div className="flex flex-col items-center text-center">
                         <img src="./images/Group 4.png" alt="" />
-                        <p className="text-[12px] media670:text-[13px] media850:text-[14px] lg:text-[16px] max-w-[250px] mt-5 font-display">“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
+                        <p className="text-[12px] media670:text-[13px] media850:text-[14px] lg:text-[16px] max-w-[250px] mt-5 font-display">“I love the shoes, the quality, and everyting. They are worth the investment!”</p>
                     </div>
 
                     <div className="items-center text-center">
                         <img src="./images/r3.png" alt="" />
-                        <p className="text-[12px] media670:text-[13px] media850:text-[14px] lg:text-[16px] max-w-[250px] mt-5 font-display">“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
+                        <p className="text-[12px] media670:text-[13px] media850:text-[14px] lg:text-[16px] max-w-[250px] mt-5 font-display">“They make the best and forever lasting shoes. Superb fit and confort is literally the next level“</p>
                     </div>
                 </div>
 

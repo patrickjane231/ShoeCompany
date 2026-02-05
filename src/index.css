@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-display : font-family: "Archivo", sans-serif;
+  --breakpoint-media670 : 670px;
+  --breakpoint-media506:506px;
+  --breakpoint-media380:360px;
+  --breakpoint-media850:850px;
+}
+
+.section-container{
+  @apply pt-20 px-6 md:px-12 max-w-360 mx-auto
+}

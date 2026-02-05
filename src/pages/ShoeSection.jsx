@@ -78,11 +78,8 @@ export function ShoeSection() {
                 </div>
             </section>
 
-<section
-  id="testimonials"
-  className="section-container pointer-events-none mt-15 flex items-center justify-center bg-cover md:bg-contain min-h-[400px]"
-  style={{ backgroundImage: "url('/images/what-people-say.png')" }}
->
+            <section id="testimonals" className="section-container  pointer-events-none
+            mt-15 items-center bg-[url('./images/what-people-say.png')] md:bg-contain ">
 
                 <div>
                     <h1 className="text-center text-3xl md:text-5xl max-w-[330px] md:max-w-2xl mx-auto font-display font-bold">What People are saying about THE SHOE COMPANY ?</h1>

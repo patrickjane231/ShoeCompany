@@ -3,8 +3,7 @@
 export function ShoeSection() {
     return (
         <>
-            <section id="hero" className="bg-[url('./images/shoe-background.png')] md:bg-contain bg-no-repeat bg-right pt-36
-             section-container bg-cover">
+            <section id="hero" className='bg-[url("/images/shoe-background.png")] bg-cover bg-no-repeat bg-right md:bg-contain pt-36 section-container'>
                 <div className="flex md:items-center max-w-6xl mx-auto justify-between md:flex-row  flex-col">
                     <h1 className="text-4xl md:text-6xl font-display font-bold md:leading-18 leading-12.5">The<br />Shoe<br /> Company</h1>
 
